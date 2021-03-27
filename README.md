@@ -35,3 +35,15 @@
   - LOT 3 - With p-value = 0.04168, which is below our 0.05 confidence level, the PSI is statistically different from the population mean of 1,500 pounds per square inch.
  
   ![D3-Lot3](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/D3-Lot3.jpg)
+  
+  ## Study Design: MechaCar vs Competition
+  
+  - What metric or metrics are you going to test?
+    - Utilizing the MechaCar mpg (miles per gallon) metric we can test it against other cars in the market for fuel effeciency
+  - What is the null hypothesis or alternative hypothesis?
+    - H(0) = The MechaCar's mpg is not statistically different from other cars in the market
+    - H(a) = The MechaCar's mpg is statistically different from other cars in the market
+  - What statistical test would you use to test the hypothesis? And why?
+    - I would use a two-sample T-test to compare the sample of MechaCar mpgs against a sample of competitiom mpgs to see if there's a statistical difference to make it worth pursuing further. 
+  - What data is needed to run the statistical test?
+    - I would need to create a sample table from the MechaCar dataframe and a sample table from a competitors dataframe and compare test the mpg from both to get my results. 
