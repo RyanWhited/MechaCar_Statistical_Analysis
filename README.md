@@ -10,12 +10,28 @@
       - Yes because 71% (the r-squared value) of predictions will be correct using this linear model.
 
 ## Summary Statistics on Suspension Coils
-   ![Deliverable 2(1)](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/Deliverable2(1).jpg)
-    
-   ![Deliverable 2(1)](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/Deliverable2(2).jpg)
 
   - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-      - Overall it meets the design specification as the variance is 62 which does not exceed 100 PSI. However, after grouping Lot 1 and 2 meet the specification but Lot 3 exceeds the PSI limit with a variance of 170.  
+      - Overall it meets the design specification as the variance is 62 which does not exceed 100 PSI. However, after grouping Lot 1 and 2 meet the specification but Lot 3 exceeds the PSI limit with a variance of 170. 
+      - All Lots Combined
+      
+      ![Deliverable 2(1)](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/Deliverable2(1).jpg)
+      - Individual Lots
+      
+      ![Deliverable 2(1)](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/Deliverable2(2).jpg)
 
 ## T-Tests on Suspension Coils
 
+  - With p-value = 0.06028, which is above our 0.05 confidence level, the PSI across all manufacturing lots is not statistically different from the population mean of 1,500 pounds per square inch.
+  
+  ![D3-AllLots](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/D3-AllLots.jpg)
+  
+  - LOT 1 - With p-value = 1, which is above our 0.05 confidence level, the PSI across is not statistically different from the population mean of 1,500 pounds per square inch.
+  
+  ![D3-Lot1](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/D3-Lot1.jpg)
+  - LOT 2 - With p-value = 0.6072, which is above our 0.05 confidence level, the PSI is not statistically different from the population mean of 1,500 pounds per square inch.
+ 
+  ![D3-Lot2](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/D3-Lot2.jpg)
+  - LOT 3 - With p-value = 0.04168, which is below our 0.05 confidence level, the PSI is statistically different from the population mean of 1,500 pounds per square inch.
+ 
+  ![D3-Lot3](https://github.com/RyanWhited/MechaCar_Statistical_Analysis/blob/main/images/D3-Lot3.jpg)
