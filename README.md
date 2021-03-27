@@ -44,6 +44,6 @@
     - H(0) = The MechaCar's mpg is not statistically different from other cars in the market
     - H(a) = The MechaCar's mpg is statistically different from other cars in the market
   - What statistical test would you use to test the hypothesis? And why?
-    - I would use a two-sample T-test to compare the sample of MechaCar mpgs against a sample of competitiom mpgs to see if there's a statistical difference to make it worth pursuing further. 
+    - I would use a two-sample T-test to compare a sample of MechaCar mpgs against a sample of competition mpgs to see if there's a statistical difference to make it worth pursuing further. 
   - What data is needed to run the statistical test?
-    - I would need to create a sample table from the MechaCar dataframe and a sample table from a competitors dataframe and compare test the mpg from both to get my results. 
+    - I would need to create a sample table from the MechaCar dataframe and a sample table from a competitors dataframe and then test the mpgs from both to get my results. 
